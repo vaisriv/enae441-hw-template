@@ -12,7 +12,7 @@ def main():
     plt.figure()
     plt.plot(x, y)
 
-    save_path = os.path.join(os.path.dirname(__file__), "../images/s03.png")
+    save_path = os.path.join(os.path.dirname(__file__), "../outputs/figures/s02.png")
     plt.savefig(save_path)
     plt.show()
 
